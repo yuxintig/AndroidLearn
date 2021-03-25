@@ -21,7 +21,7 @@ public class CauActivity extends AppCompatActivity {
 
     public void cal(View view) {
         Object result = AviatorEvaluator.execute(input.getText().toString().replace("x","*"));
-        input.setText(result.toString());
+        input.setText(input.getText().toString()+"="+"\n"+result.toString());
 
     }
 
