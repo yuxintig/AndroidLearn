@@ -8,58 +8,62 @@
     android:orientation="horizontal">
 
     <EditText
-        android:id="@+id/tv_result"
-        android:layout_rowWeight="3"
+        android:id="@+id/tv_input"
+        android:layout_rowWeight="15"
         android:layout_columnSpan="4"
-        android:layout_columnWeight="4"
+        android:layout_columnWeight="5"
         android:gravity="end|bottom"
+        android:inputType="number"
         android:text="0"
-        android:textSize="48sp"
-        android:inputType="number" />
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/btn_c"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
-        android:background="#ffffff"
+        android:background="#D3D3D3"
         android:gravity="center"
         android:text="C"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="28sp" />
+        android:onClick="clear"
+        android:textColor="#616161"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_divide"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
-        android:background="#ffffff"
+        android:background="#D3D3D3"
         android:gravity="center"
         android:text="/"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="28sp" />
+        android:onClick="input"
+        android:textColor="#616161"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_multipy"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
-        android:background="#ffffff"
+        android:background="#D3D3D3"
         android:gravity="center"
         android:text="x"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="28sp" />
+        android:onClick="input"
+        android:textColor="#616161"
+        android:textSize="24dp" />
 
     <Button
         android:id="@+id/btn_back"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
-        android:background="#ffffff"
+        android:background="#D3D3D3"
         android:gravity="center"
+        android:onClick="back"
         android:text="退格"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="28sp" />
+        android:textColor="#616161"
+        android:textSize="21sp" />
 
     <Button
         android:id="@+id/btn_7"
@@ -68,8 +72,10 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="7"
-        android:textSize="28sp" />
+
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_8"
@@ -78,8 +84,9 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="8"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_9"
@@ -88,19 +95,21 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="9"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_minus"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
-        android:background="#ffffff"
+        android:background="#D3D3D3"
         android:gravity="center"
-        android:text="—"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="28sp" />
+        android:text="-"
+        android:onClick="input"
+        android:textColor="#616161"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_4"
@@ -109,8 +118,9 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="4"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_5"
@@ -119,8 +129,9 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="5"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_6"
@@ -129,19 +140,21 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="6"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_add"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
-        android:background="#ffffff"
+        android:background="#D3D3D3"
         android:gravity="center"
         android:text="+"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="28sp" />
+        android:onClick="input"
+        android:textColor="#616161"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_1"
@@ -150,8 +163,9 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="1"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_2"
@@ -160,8 +174,9 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="2"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_3"
@@ -170,8 +185,9 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="3"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_equal"
@@ -179,11 +195,12 @@
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
-        android:background="@android:color/holo_blue_light"
+        android:background="#B4B2D8"
         android:gravity="center"
         android:text="="
-        android:textColor="#ffffff"
-        android:textSize="28sp" />
+        android:onClick="cal"
+        android:textColor="#616161"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_percent"
@@ -192,8 +209,9 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="percent"
         android:text="%"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_0"
@@ -203,7 +221,8 @@
         android:background="#ffffff"
         android:gravity="center"
         android:text="0"
-        android:textSize="28sp" />
+        android:onClick="input"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_point"
@@ -211,7 +230,8 @@
         android:layout_columnWeight="1"
         android:background="#ffffff"
         android:gravity="center"
+        android:onClick="input"
         android:text="."
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
 </GridLayout>

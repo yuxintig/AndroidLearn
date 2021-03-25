@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/buling"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLearn">
-        <activity android:name=".BmiActivity">
+        <activity android:name=".BmiActivity" android:label="BMI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
