@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.shinonon.androidlearn.CircleImageView
+            android:src="@drawable/buling"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="50dp"
+            />
+
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:hint="姓    名:"
+            android:drawableStart="@drawable/ic_baseline_account_circle_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="11">
+
+<!--        <TextView-->
+<!--            android:text="手机号："-->
+
+<!--            android:textSize="18dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableLeft="@drawable/ic_baseline_lock_24"/>-->
+
+        <EditText
+            android:id="@+id/etIphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:ems="11"
+            android:hint="手机号:"
+             />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="80dp"-->
+    <!--        android:layout_marginEnd="80dp">-->
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_login"-->
+    <!--            android:layout_width="125dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="登  录" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_register"-->
+    <!--            android:layout_width="125dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="注 册" />-->
+
+    <!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <RadioGroup
+            android:id="@+id/rgSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="性 别:"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/rbMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="男"
+                android:textSize="17dp" />
+
+            <RadioButton
+                android:id="@+id/rbWoman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="女"
+                android:textSize="17dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我喜欢的专业课 ："
+            android:textSize="19dp"/>
+        <CheckBox
+            android:id="@+id/cbJava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java语言"
+            android:textSize="18dp"
+            android:layout_marginTop="9dp"/>
+        <CheckBox
+            android:id="@+id/cbAndroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:textSize="18dp"/>
+        <CheckBox
+            android:id="@+id/cbEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="大学英语"
+            android:textSize="18dp"/>
+        <CheckBox
+            android:id="@+id/cbMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高等数学"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnDet"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textAlignment="center"
+            android:textSize="19dp" />
+    </LinearLayout>
+</LinearLayout>

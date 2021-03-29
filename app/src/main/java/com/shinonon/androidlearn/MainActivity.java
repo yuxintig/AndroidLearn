@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText 账号输入框 = findViewById(R.id.ed_account);
-        EditText 密码输入框 = findViewById(R.id.ed_password);
+        EditText 账号输入框 = findViewById(R.id.name);
+        EditText 密码输入框 = findViewById(R.id.iphone);
 
         //寻找登录Button
         Button btnLogin = findViewById(R.id.btn_login);
