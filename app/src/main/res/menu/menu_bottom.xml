@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/message"
+        android:enabled="true"
+        android:icon="@drawable/message"
+        android:title="消息" />
+    <item
+        android:id="@+id/contact"
+        android:enabled="true"
+        android:icon="@drawable/contact"
+        android:title="通讯录" />
+    <item
+        android:id="@+id/found"
+        android:enabled="true"
+        android:icon="@drawable/find"
+        android:title="发现" />
+    <item
+        android:id="@+id/me"
+        android:enabled="true"
+        android:icon="@drawable/me"
+        android:title="我" />
+
+</menu>
