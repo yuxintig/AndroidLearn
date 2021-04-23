@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
             Log.e("====>","\n账号:"+账号+"\n密码:"+密码);
             Toast.makeText(MainActivity.this, "哈哈哈哈你点开了", Toast.LENGTH_SHORT).show();
         });
-
-
-
     }
+
+
 }

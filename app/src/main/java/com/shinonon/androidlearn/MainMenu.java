@@ -1,7 +1,6 @@
 package com.shinonon.androidlearn;
 
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
 
@@ -103,9 +102,5 @@ public class MainMenu extends AppCompatActivity {
         });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/me"
+        android:id="@+id/copy"
+        android:title="拷贝"/>
+    <item
+        android:icon="@drawable/me"
+        android:id="@+id/paste"
+        android:title="粘贴"/>
+    <item
+    android:icon="@drawable/me"
+    android:id="@+id/clear"
+    android:title="清空"/>
+
+</menu>
