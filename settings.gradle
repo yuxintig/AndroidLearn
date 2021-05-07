@@ -1,2 +1,4 @@
+include ':advance'
 include ':app'
+include ':framework'
 rootProject.name = "AndroidLearn"

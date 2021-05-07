@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,42 +7,65 @@
     android:orientation="vertical"
     tools:context=".fish.WorkActivity">
 
-
-    <EditText
-        android:id="@+id/ed1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="数字一" />
-
-    <EditText
-        android:id="@+id/ed2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="数字二" />
-
-    <Button
-        android:id="@+id/btn_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="跳转并传值计算" />
-    <FrameLayout
+    <LinearLayout
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/fragment_container" />
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment生命周期" />
+        android:paddingTop="50dp"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="数字一"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="数字二"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#CA99E3"
+            android:text="跳转并传值计算" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dialog传值跳转计算" />
-</androidx.appcompat.widget.LinearLayoutCompat>
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        android:paddingTop="80dp">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#CA99E3"
+            android:text="Fragment生命周期" />
+
+        <Button
+            android:id="@+id/btn3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CA99E3"
+            android:text="Dialog传值跳转计算" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:paddingTop="50dp"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+</LinearLayout>
