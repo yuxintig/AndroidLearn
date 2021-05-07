@@ -9,6 +9,14 @@
         android:roundIcon="@drawable/buling"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLearn">
+        <activity android:name=".jump.Jump2Activity0423"></activity>
+        <activity android:name=".jump.Test0423" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ActionMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,6 +72,14 @@
         <activity
             android:name=".MainMenu"
             android:label="微信">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fish.ResultActivity" />
+        <activity android:name=".fish.WorkActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
