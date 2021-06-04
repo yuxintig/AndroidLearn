@@ -12,7 +12,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.kirshi.framework.base.BaseActivity;
+import com.shinonon.framework.base.BaseActivity;
 import com.shinonon.advance.databinding.ActivityMainBinding;
 import com.shinonon.advance.fragment.DashboardFragment;
 import com.shinonon.advance.fragment.HomeFragment;
@@ -21,7 +21,7 @@ import com.shinonon.advance.fragment.NotificationFragment;
 /**
  * @author Finger
  */
-public class MainActivity extends BaseActivity<ActivityMainBinding> {
+public class  MainActivity extends BaseActivity<ActivityMainBinding> {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

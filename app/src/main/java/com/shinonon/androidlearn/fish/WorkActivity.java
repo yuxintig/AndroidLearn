@@ -24,12 +24,14 @@ public class WorkActivity extends AppCompatActivity {
             intent.putExtra("num2", num2);
             startActivity(intent);
         });
+
         v.btn2.setOnClickListener(view->{
             getSupportFragmentManager()
                     .beginTransaction()
                     .add(R.id.fragment_container, new LifecycleFragment())
                     .commit();
         });
+
         v.btn3.setOnClickListener(view->{
             JumpDialog dialog = new JumpDialog();
             dialog.show(getSupportFragmentManager(),"dialog");

@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.kirshi.framework.base.BaseFragment;
+import com.shinonon.framework.base.BaseFragment;
 import com.shinonon.advance.databinding.FragmentDashboardBinding;
 
 

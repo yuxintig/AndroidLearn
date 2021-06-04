@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.kirshi.framework.base.BaseFragment;
+import com.shinonon.framework.base.BaseFragment;
 import com.shinonon.advance.R;
 import com.shinonon.advance.databinding.FragmentNotificationBinding;
 

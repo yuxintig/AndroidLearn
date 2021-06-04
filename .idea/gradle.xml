@@ -14,11 +14,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/advance" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/course" />
             <option value="$PROJECT_DIR$/framework" />
+            <option value="$PROJECT_DIR$/sqlite" />
+            <option value="$PROJECT_DIR$/storage" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>

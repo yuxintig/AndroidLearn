@@ -1,4 +1,7 @@
+include ':sqlite'
+include ':storage'
 include ':advance'
 include ':app'
 include ':framework'
+include ':course'
 rootProject.name = "AndroidLearn"
